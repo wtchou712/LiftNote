@@ -1,0 +1,6 @@
+-Add View Controller with Activity Indicator to load all data at start of app
+-reorganize NewLogViewController for better UI 
+-debug ViewWeightRepViewController so sets are grouped by date
+-create text logo
+-create app logo
+-UI improvements

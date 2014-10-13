@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D044B5D196DC61300BEA0FD /* WorkoutProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D044B5C196DC61300BEA0FD /* WorkoutProgram.m */; };
+		3D29BEFC19D2252B004171A8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BEF919D2252B004171A8 /* Bolts.framework */; };
+		3D29BEFD19D2252B004171A8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BEFA19D2252B004171A8 /* Parse.framework */; };
+		3D29BEFE19D2252C004171A8 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BEFB19D2252B004171A8 /* ParseFacebookUtils.framework */; };
+		3D29BF0019D227D4004171A8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BEFF19D227D4004171A8 /* AudioToolbox.framework */; };
+		3D29BF0219D227DD004171A8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BF0119D227DD004171A8 /* CFNetwork.framework */; };
+		3D29BF0419D227EF004171A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BF0319D227EF004171A8 /* CoreLocation.framework */; };
+		3D29BF0619D227FC004171A8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BF0519D227FC004171A8 /* libz.dylib */; };
+		3D29BF0819D22808004171A8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BF0719D22808004171A8 /* MobileCoreServices.framework */; };
+		3D29BF0A19D22810004171A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BF0919D22810004171A8 /* QuartzCore.framework */; };
+		3D29BF0C19D2281B004171A8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BF0B19D2281B004171A8 /* Security.framework */; };
+		3D29BF0E19D22822004171A8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BF0D19D22822004171A8 /* StoreKit.framework */; };
+		3D29BF1019D2282B004171A8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29BF0F19D2282B004171A8 /* SystemConfiguration.framework */; };
+		3D29BF1519DB4334004171A8 /* RightToLeftSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29BF1419DB4334004171A8 /* RightToLeftSegue.m */; };
+		3D29BF1919DB554A004171A8 /* UnwindLeftToRightSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D29BF1819DB554A004171A8 /* UnwindLeftToRightSegue.m */; };
+		3D31022D19830612006C03FF /* AddNewDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D31022C19830612006C03FF /* AddNewDayViewController.m */; };
 		3D54B2B41963AA31000C5A8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D54B2B31963AA31000C5A8E /* Foundation.framework */; };
 		3D54B2B61963AA32000C5A8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D54B2B51963AA32000C5A8E /* CoreGraphics.framework */; };
 		3D54B2B81963AA32000C5A8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D54B2B71963AA32000C5A8E /* UIKit.framework */; };
@@ -19,6 +35,31 @@
 		3D54B2CF1963AA33000C5A8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D54B2B71963AA32000C5A8E /* UIKit.framework */; };
 		3D54B2D71963AA33000C5A8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D54B2D51963AA33000C5A8E /* InfoPlist.strings */; };
 		3D54B2D91963AA33000C5A8E /* FitnessAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D54B2D81963AA33000C5A8E /* FitnessAppTests.m */; };
+		3D54B2E51963AAF4000C5A8E /* FitnessApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D54B2E41963AAF4000C5A8E /* FitnessApp.storyboard */; };
+		3D5B0EF2199D8E7B00228E21 /* ViewWeightRepTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B0EF1199D8E7B00228E21 /* ViewWeightRepTableViewController.m */; };
+		3D5B0EF5199DB3B600228E21 /* WorkoutSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B0EF4199DB3B500228E21 /* WorkoutSet.m */; };
+		3D70587F19B58B6B006680FF /* ExercisesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D70587E19B58B6B006680FF /* ExercisesTableViewCell.m */; };
+		3D70588219B68334006680FF /* NewLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D70588119B68334006680FF /* NewLogViewController.m */; };
+		3D70588519B923CF006680FF /* DateSetsClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D70588419B923CF006680FF /* DateSetsClass.m */; };
+		3D940D8F19AFCCC7006B99E1 /* DayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D940D8E19AFCCC7006B99E1 /* DayTableViewCell.m */; };
+		3D941A5919E4A136001005EB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D941A5819E4A136001005EB /* LoginViewController.m */; };
+		3D941A5D19E5BDF0001005EB /* weightwallpaper2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D941A5C19E5BDF0001005EB /* weightwallpaper2.png */; };
+		3D941A6319E5F15C001005EB /* greyButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D941A6219E5F15C001005EB /* greyButtonHighlight@2x.png */; };
+		3D941A6519E5F186001005EB /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D941A6419E5F186001005EB /* greyButton@2x.png */; };
+		3D941A6919E5F59C001005EB /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D941A6719E5F59C001005EB /* blueButton@2x.png */; };
+		3D941A6A19E5F59C001005EB /* blueButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D941A6819E5F59C001005EB /* blueButtonHighlight@2x.png */; };
+		3D941A7119E6E1C4001005EB /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D941A7019E6E1C4001005EB /* CreateAccountViewController.m */; };
+		3D941A7319E71FF7001005EB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D941A7219E71FF7001005EB /* FacebookSDK.framework */; };
+		3DC3792A19DB8E89008DCCE7 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3792919DB8E89008DCCE7 /* CustomNavigationController.m */; };
+		3DCF854C19AD41A800FD2B33 /* WeightRepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF854B19AD41A800FD2B33 /* WeightRepTableViewCell.m */; };
+		3DDE091E1981B26100B69334 /* WorkoutDayListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE091D1981B26100B69334 /* WorkoutDayListTableViewController.m */; };
+		3DDE09211981B45600B69334 /* WorkoutDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDE09201981B45600B69334 /* WorkoutDay.m */; };
+		3DEF54301995757B0024A236 /* ExercisesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF542F1995757B0024A236 /* ExercisesTableViewController.m */; };
+		3DEF543319957AE40024A236 /* AddNewExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF543219957AE40024A236 /* AddNewExerciseViewController.m */; };
+		3DEF54481995875D0024A236 /* WorkoutExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEF54471995875D0024A236 /* WorkoutExercise.m */; };
+		3DF2C95A19A826CD00A47359 /* dumbbellthumbnail.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3DF2C95919A826CD00A47359 /* dumbbellthumbnail.jpeg */; };
+		3DFAE8AB196CC2AB00FAA30C /* AddNewProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAE8AA196CC2AB00FAA30C /* AddNewProgramViewController.m */; };
+		3DFAE8B1196CC3A100FAA30C /* WorkoutProgramListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAE8B0196CC3A100FAA30C /* WorkoutProgramListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +73,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D044B5B196DC61300BEA0FD /* WorkoutProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutProgram.h; sourceTree = "<group>"; };
+		3D044B5C196DC61300BEA0FD /* WorkoutProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutProgram.m; sourceTree = "<group>"; };
+		3D29BEF919D2252B004171A8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3D29BEFA19D2252B004171A8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		3D29BEFB19D2252B004171A8 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		3D29BEFF19D227D4004171A8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3D29BF0119D227DD004171A8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3D29BF0319D227EF004171A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D29BF0519D227FC004171A8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3D29BF0719D22808004171A8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3D29BF0919D22810004171A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3D29BF0B19D2281B004171A8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3D29BF0D19D22822004171A8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3D29BF0F19D2282B004171A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3D29BF1319DB4334004171A8 /* RightToLeftSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightToLeftSegue.h; sourceTree = "<group>"; };
+		3D29BF1419DB4334004171A8 /* RightToLeftSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightToLeftSegue.m; sourceTree = "<group>"; };
+		3D29BF1719DB554A004171A8 /* UnwindLeftToRightSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnwindLeftToRightSegue.h; sourceTree = "<group>"; };
+		3D29BF1819DB554A004171A8 /* UnwindLeftToRightSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnwindLeftToRightSegue.m; sourceTree = "<group>"; };
+		3D31022B19830612006C03FF /* AddNewDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewDayViewController.h; sourceTree = "<group>"; };
+		3D31022C19830612006C03FF /* AddNewDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewDayViewController.m; sourceTree = "<group>"; };
 		3D54B2B01963AA31000C5A8E /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D54B2B31963AA31000C5A8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3D54B2B51963AA32000C5A8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +109,48 @@
 		3D54B2D41963AA33000C5A8E /* FitnessAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitnessAppTests-Info.plist"; sourceTree = "<group>"; };
 		3D54B2D61963AA33000C5A8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D54B2D81963AA33000C5A8E /* FitnessAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessAppTests.m; sourceTree = "<group>"; };
+		3D54B2E41963AAF4000C5A8E /* FitnessApp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FitnessApp.storyboard; sourceTree = "<group>"; };
+		3D5B0EF0199D8E7B00228E21 /* ViewWeightRepTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewWeightRepTableViewController.h; sourceTree = "<group>"; };
+		3D5B0EF1199D8E7B00228E21 /* ViewWeightRepTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewWeightRepTableViewController.m; sourceTree = "<group>"; };
+		3D5B0EF3199DB3B500228E21 /* WorkoutSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutSet.h; sourceTree = "<group>"; };
+		3D5B0EF4199DB3B500228E21 /* WorkoutSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutSet.m; sourceTree = "<group>"; };
+		3D70587D19B58B6B006680FF /* ExercisesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExercisesTableViewCell.h; sourceTree = "<group>"; };
+		3D70587E19B58B6B006680FF /* ExercisesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExercisesTableViewCell.m; sourceTree = "<group>"; };
+		3D70588019B68334006680FF /* NewLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewLogViewController.h; sourceTree = "<group>"; };
+		3D70588119B68334006680FF /* NewLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewLogViewController.m; sourceTree = "<group>"; };
+		3D70588319B923CF006680FF /* DateSetsClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateSetsClass.h; sourceTree = "<group>"; };
+		3D70588419B923CF006680FF /* DateSetsClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateSetsClass.m; sourceTree = "<group>"; };
+		3D940D8D19AFCCC7006B99E1 /* DayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayTableViewCell.h; sourceTree = "<group>"; };
+		3D940D8E19AFCCC7006B99E1 /* DayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayTableViewCell.m; sourceTree = "<group>"; };
+		3D941A5719E4A136001005EB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3D941A5819E4A136001005EB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3D941A5C19E5BDF0001005EB /* weightwallpaper2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weightwallpaper2.png; sourceTree = "<group>"; };
+		3D941A6219E5F15C001005EB /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		3D941A6419E5F186001005EB /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButton@2x.png"; sourceTree = "<group>"; };
+		3D941A6719E5F59C001005EB /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
+		3D941A6819E5F59C001005EB /* blueButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		3D941A6F19E6E1C4001005EB /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
+		3D941A7019E6E1C4001005EB /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		3D941A7219E71FF7001005EB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		3DC3792819DB8E89008DCCE7 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		3DC3792919DB8E89008DCCE7 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		3DCF854A19AD41A800FD2B33 /* WeightRepTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightRepTableViewCell.h; sourceTree = "<group>"; };
+		3DCF854B19AD41A800FD2B33 /* WeightRepTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightRepTableViewCell.m; sourceTree = "<group>"; };
+		3DDE091C1981B26100B69334 /* WorkoutDayListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutDayListTableViewController.h; sourceTree = "<group>"; };
+		3DDE091D1981B26100B69334 /* WorkoutDayListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutDayListTableViewController.m; sourceTree = "<group>"; };
+		3DDE091F1981B45600B69334 /* WorkoutDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutDay.h; sourceTree = "<group>"; };
+		3DDE09201981B45600B69334 /* WorkoutDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutDay.m; sourceTree = "<group>"; };
+		3DEF542E1995757B0024A236 /* ExercisesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExercisesTableViewController.h; sourceTree = "<group>"; };
+		3DEF542F1995757B0024A236 /* ExercisesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExercisesTableViewController.m; sourceTree = "<group>"; };
+		3DEF543119957AE40024A236 /* AddNewExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewExerciseViewController.h; sourceTree = "<group>"; };
+		3DEF543219957AE40024A236 /* AddNewExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewExerciseViewController.m; sourceTree = "<group>"; };
+		3DEF54461995875D0024A236 /* WorkoutExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutExercise.h; sourceTree = "<group>"; };
+		3DEF54471995875D0024A236 /* WorkoutExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutExercise.m; sourceTree = "<group>"; };
+		3DF2C95919A826CD00A47359 /* dumbbellthumbnail.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dumbbellthumbnail.jpeg; sourceTree = "<group>"; };
+		3DFAE8A9196CC2AB00FAA30C /* AddNewProgramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewProgramViewController.h; sourceTree = "<group>"; };
+		3DFAE8AA196CC2AB00FAA30C /* AddNewProgramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewProgramViewController.m; sourceTree = "<group>"; };
+		3DFAE8AF196CC3A100FAA30C /* WorkoutProgramListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutProgramListTableViewController.h; sourceTree = "<group>"; };
+		3DFAE8B0196CC3A100FAA30C /* WorkoutProgramListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutProgramListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +158,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D29BF1019D2282B004171A8 /* SystemConfiguration.framework in Frameworks */,
+				3D29BF0E19D22822004171A8 /* StoreKit.framework in Frameworks */,
+				3D29BF0C19D2281B004171A8 /* Security.framework in Frameworks */,
+				3D29BF0A19D22810004171A8 /* QuartzCore.framework in Frameworks */,
+				3D29BF0819D22808004171A8 /* MobileCoreServices.framework in Frameworks */,
+				3D29BF0619D227FC004171A8 /* libz.dylib in Frameworks */,
+				3D29BF0419D227EF004171A8 /* CoreLocation.framework in Frameworks */,
 				3D54B2B61963AA32000C5A8E /* CoreGraphics.framework in Frameworks */,
+				3D29BF0219D227DD004171A8 /* CFNetwork.framework in Frameworks */,
+				3D29BF0019D227D4004171A8 /* AudioToolbox.framework in Frameworks */,
 				3D54B2B81963AA32000C5A8E /* UIKit.framework in Frameworks */,
+				3D29BEFE19D2252C004171A8 /* ParseFacebookUtils.framework in Frameworks */,
 				3D54B2B41963AA31000C5A8E /* Foundation.framework in Frameworks */,
+				3D941A7319E71FF7001005EB /* FacebookSDK.framework in Frameworks */,
+				3D29BEFC19D2252B004171A8 /* Bolts.framework in Frameworks */,
+				3D29BEFD19D2252B004171A8 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +190,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D29BEF819D2252B004171A8 /* parse-library-1.4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				3D29BEF919D2252B004171A8 /* Bolts.framework */,
+				3D29BEFA19D2252B004171A8 /* Parse.framework */,
+				3D29BEFB19D2252B004171A8 /* ParseFacebookUtils.framework */,
+			);
+			path = "parse-library-1.4.0";
+			sourceTree = "<group>";
+		};
+		3D29BF1119D3E777004171A8 /* Add View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DFAE8A9196CC2AB00FAA30C /* AddNewProgramViewController.h */,
+				3DFAE8AA196CC2AB00FAA30C /* AddNewProgramViewController.m */,
+				3D31022B19830612006C03FF /* AddNewDayViewController.h */,
+				3D31022C19830612006C03FF /* AddNewDayViewController.m */,
+				3DEF543119957AE40024A236 /* AddNewExerciseViewController.h */,
+				3DEF543219957AE40024A236 /* AddNewExerciseViewController.m */,
+				3D70588019B68334006680FF /* NewLogViewController.h */,
+				3D70588119B68334006680FF /* NewLogViewController.m */,
+			);
+			name = "Add View Controllers";
+			sourceTree = "<group>";
+		};
+		3D29BF1219D3E78F004171A8 /* Standard View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DFAE8AF196CC3A100FAA30C /* WorkoutProgramListTableViewController.h */,
+				3DFAE8B0196CC3A100FAA30C /* WorkoutProgramListTableViewController.m */,
+				3DDE091C1981B26100B69334 /* WorkoutDayListTableViewController.h */,
+				3DDE091D1981B26100B69334 /* WorkoutDayListTableViewController.m */,
+				3DEF542E1995757B0024A236 /* ExercisesTableViewController.h */,
+				3DEF542F1995757B0024A236 /* ExercisesTableViewController.m */,
+				3D5B0EF0199D8E7B00228E21 /* ViewWeightRepTableViewController.h */,
+				3D5B0EF1199D8E7B00228E21 /* ViewWeightRepTableViewController.m */,
+				3D941A5719E4A136001005EB /* LoginViewController.h */,
+				3D941A5819E4A136001005EB /* LoginViewController.m */,
+				3D941A6F19E6E1C4001005EB /* CreateAccountViewController.h */,
+				3D941A7019E6E1C4001005EB /* CreateAccountViewController.m */,
+			);
+			name = "Standard View Controllers";
+			sourceTree = "<group>";
+		};
+		3D29BF1619DB433E004171A8 /* Custom Segues */ = {
+			isa = PBXGroup;
+			children = (
+				3D29BF1319DB4334004171A8 /* RightToLeftSegue.h */,
+				3D29BF1419DB4334004171A8 /* RightToLeftSegue.m */,
+				3D29BF1719DB554A004171A8 /* UnwindLeftToRightSegue.h */,
+				3D29BF1819DB554A004171A8 /* UnwindLeftToRightSegue.m */,
+			);
+			name = "Custom Segues";
+			sourceTree = "<group>";
+		};
 		3D54B2A71963AA31000C5A8E = {
 			isa = PBXGroup;
 			children = (
+				3D54B2BA1963AA32000C5A8E /* Supporting Files */,
+				3D29BEF819D2252B004171A8 /* parse-library-1.4.0 */,
 				3D54B2B91963AA32000C5A8E /* FitnessApp */,
 				3D54B2D21963AA33000C5A8E /* FitnessAppTests */,
 				3D54B2B21963AA31000C5A8E /* Frameworks */,
@@ -96,6 +269,16 @@
 		3D54B2B21963AA31000C5A8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D941A7219E71FF7001005EB /* FacebookSDK.framework */,
+				3D29BF0F19D2282B004171A8 /* SystemConfiguration.framework */,
+				3D29BF0D19D22822004171A8 /* StoreKit.framework */,
+				3D29BF0B19D2281B004171A8 /* Security.framework */,
+				3D29BF0919D22810004171A8 /* QuartzCore.framework */,
+				3D29BF0719D22808004171A8 /* MobileCoreServices.framework */,
+				3D29BF0519D227FC004171A8 /* libz.dylib */,
+				3D29BF0319D227EF004171A8 /* CoreLocation.framework */,
+				3D29BF0119D227DD004171A8 /* CFNetwork.framework */,
+				3D29BEFF19D227D4004171A8 /* AudioToolbox.framework */,
 				3D54B2B31963AA31000C5A8E /* Foundation.framework */,
 				3D54B2B51963AA32000C5A8E /* CoreGraphics.framework */,
 				3D54B2B71963AA32000C5A8E /* UIKit.framework */,
@@ -110,7 +293,14 @@
 				3D54B2C21963AA32000C5A8E /* AppDelegate.h */,
 				3D54B2C31963AA32000C5A8E /* AppDelegate.m */,
 				3D54B2C51963AA32000C5A8E /* Images.xcassets */,
-				3D54B2BA1963AA32000C5A8E /* Supporting Files */,
+				3D54B2E41963AAF4000C5A8E /* FitnessApp.storyboard */,
+				3D941A6619E5F1A5001005EB /* Images */,
+				3DC3792B19DB8E93008DCCE7 /* Custom Navigation Controller */,
+				3D29BF1619DB433E004171A8 /* Custom Segues */,
+				3D29BF1219D3E78F004171A8 /* Standard View Controllers */,
+				3D29BF1119D3E777004171A8 /* Add View Controllers */,
+				3D940D9119AFCDC4006B99E1 /* Workout Classes */,
+				3D940D9019AFCD7C006B99E1 /* Custom TableViewCells */,
 			);
 			path = FitnessApp;
 			sourceTree = "<group>";
@@ -124,6 +314,7 @@
 				3D54B2C11963AA32000C5A8E /* FitnessApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = FitnessApp;
 			sourceTree = "<group>";
 		};
 		3D54B2D21963AA33000C5A8E /* FitnessAppTests */ = {
@@ -142,6 +333,58 @@
 				3D54B2D51963AA33000C5A8E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D940D9019AFCD7C006B99E1 /* Custom TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				3D940D8D19AFCCC7006B99E1 /* DayTableViewCell.h */,
+				3D940D8E19AFCCC7006B99E1 /* DayTableViewCell.m */,
+				3D70587D19B58B6B006680FF /* ExercisesTableViewCell.h */,
+				3D70587E19B58B6B006680FF /* ExercisesTableViewCell.m */,
+				3DCF854A19AD41A800FD2B33 /* WeightRepTableViewCell.h */,
+				3DCF854B19AD41A800FD2B33 /* WeightRepTableViewCell.m */,
+			);
+			name = "Custom TableViewCells";
+			sourceTree = "<group>";
+		};
+		3D940D9119AFCDC4006B99E1 /* Workout Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D044B5B196DC61300BEA0FD /* WorkoutProgram.h */,
+				3D044B5C196DC61300BEA0FD /* WorkoutProgram.m */,
+				3DDE091F1981B45600B69334 /* WorkoutDay.h */,
+				3DDE09201981B45600B69334 /* WorkoutDay.m */,
+				3DEF54461995875D0024A236 /* WorkoutExercise.h */,
+				3DEF54471995875D0024A236 /* WorkoutExercise.m */,
+				3D5B0EF3199DB3B500228E21 /* WorkoutSet.h */,
+				3D5B0EF4199DB3B500228E21 /* WorkoutSet.m */,
+				3D70588319B923CF006680FF /* DateSetsClass.h */,
+				3D70588419B923CF006680FF /* DateSetsClass.m */,
+			);
+			name = "Workout Classes";
+			sourceTree = "<group>";
+		};
+		3D941A6619E5F1A5001005EB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3D941A6719E5F59C001005EB /* blueButton@2x.png */,
+				3D941A6819E5F59C001005EB /* blueButtonHighlight@2x.png */,
+				3DF2C95919A826CD00A47359 /* dumbbellthumbnail.jpeg */,
+				3D941A5C19E5BDF0001005EB /* weightwallpaper2.png */,
+				3D941A6419E5F186001005EB /* greyButton@2x.png */,
+				3D941A6219E5F15C001005EB /* greyButtonHighlight@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3DC3792B19DB8E93008DCCE7 /* Custom Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3792819DB8E89008DCCE7 /* CustomNavigationController.h */,
+				3DC3792919DB8E89008DCCE7 /* CustomNavigationController.m */,
+			);
+			name = "Custom Navigation Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +434,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "William Chou";
 				TargetAttributes = {
+					3D54B2AF1963AA31000C5A8E = {
+						DevelopmentTeam = HD543WTV98;
+					};
 					3D54B2CA1963AA33000C5A8E = {
 						TestTargetID = 3D54B2AF1963AA31000C5A8E;
 					};
@@ -219,7 +465,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D941A6319E5F15C001005EB /* greyButtonHighlight@2x.png in Resources */,
+				3D54B2E51963AAF4000C5A8E /* FitnessApp.storyboard in Resources */,
+				3D941A6919E5F59C001005EB /* blueButton@2x.png in Resources */,
+				3DF2C95A19A826CD00A47359 /* dumbbellthumbnail.jpeg in Resources */,
+				3D941A5D19E5BDF0001005EB /* weightwallpaper2.png in Resources */,
+				3D941A6A19E5F59C001005EB /* blueButtonHighlight@2x.png in Resources */,
 				3D54B2BE1963AA32000C5A8E /* InfoPlist.strings in Resources */,
+				3D941A6519E5F186001005EB /* greyButton@2x.png in Resources */,
 				3D54B2C61963AA32000C5A8E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +492,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D29BF1519DB4334004171A8 /* RightToLeftSegue.m in Sources */,
+				3DDE091E1981B26100B69334 /* WorkoutDayListTableViewController.m in Sources */,
+				3DCF854C19AD41A800FD2B33 /* WeightRepTableViewCell.m in Sources */,
+				3DFAE8B1196CC3A100FAA30C /* WorkoutProgramListTableViewController.m in Sources */,
+				3DDE09211981B45600B69334 /* WorkoutDay.m in Sources */,
+				3DEF543319957AE40024A236 /* AddNewExerciseViewController.m in Sources */,
+				3DEF54301995757B0024A236 /* ExercisesTableViewController.m in Sources */,
+				3D70587F19B58B6B006680FF /* ExercisesTableViewCell.m in Sources */,
+				3D70588519B923CF006680FF /* DateSetsClass.m in Sources */,
+				3DFAE8AB196CC2AB00FAA30C /* AddNewProgramViewController.m in Sources */,
 				3D54B2C41963AA32000C5A8E /* AppDelegate.m in Sources */,
+				3D044B5D196DC61300BEA0FD /* WorkoutProgram.m in Sources */,
 				3D54B2C01963AA32000C5A8E /* main.m in Sources */,
+				3D29BF1919DB554A004171A8 /* UnwindLeftToRightSegue.m in Sources */,
+				3D31022D19830612006C03FF /* AddNewDayViewController.m in Sources */,
+				3D5B0EF2199D8E7B00228E21 /* ViewWeightRepTableViewController.m in Sources */,
+				3DC3792A19DB8E89008DCCE7 /* CustomNavigationController.m in Sources */,
+				3D70588219B68334006680FF /* NewLogViewController.m in Sources */,
+				3D5B0EF5199DB3B600228E21 /* WorkoutSet.m in Sources */,
+				3D940D8F19AFCCC7006B99E1 /* DayTableViewCell.m in Sources */,
+				3D941A7119E6E1C4001005EB /* CreateAccountViewController.m in Sources */,
+				3D941A5919E4A136001005EB /* LoginViewController.m in Sources */,
+				3DEF54481995875D0024A236 /* WorkoutExercise.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +635,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: William Chou (U8UJF3HE49)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/William/Documents/My\\ Projects/FitnessApp\\ 1.6/parse-library-1.4.0",
+					"/Users/William/Documents/My\\ Projects/FitnessApp\\ 1.7\\ NoNavController",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FitnessApp/FitnessApp-Prefix.pch";
 				INFOPLIST_FILE = "FitnessApp/FitnessApp-Info.plist";
@@ -374,6 +654,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: William Chou (U8UJF3HE49)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/William/Documents/My\\ Projects/FitnessApp\\ 1.6/parse-library-1.4.0",
+					"/Users/William/Documents/My\\ Projects/FitnessApp\\ 1.7\\ NoNavController",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FitnessApp/FitnessApp-Prefix.pch";
 				INFOPLIST_FILE = "FitnessApp/FitnessApp-Info.plist";
@@ -443,6 +729,7 @@
 				3D54B2DE1963AA34000C5A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D54B2DF1963AA34000C5A8E /* Build configuration list for PBXNativeTarget "FitnessAppTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +738,7 @@
 				3D54B2E11963AA34000C5A8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
