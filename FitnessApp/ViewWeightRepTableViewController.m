@@ -227,6 +227,8 @@ static NSString * const WeightRepCellIdentifier = @"WeightRepCell";
     
     //[self colorNavigationStatusBar];
     [self loadInitialData];
+    //[self organizeSetsDates];
+    //[self.tableView reloadData];
     self.cellArray = [[NSMutableArray alloc] init];
     
 }
