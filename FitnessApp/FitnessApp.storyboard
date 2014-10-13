@@ -112,6 +112,10 @@
                                     <segue destination="BYj-iW-whd" kind="push" id="EoT-FV-g81"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="hzC-tj-mQQ">
+                                <rect key="frame" x="142" y="203" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="0.18865729678829038" green="0.35645313260986294" blue="0.67215401785714279" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -122,6 +126,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="aE3-Ba-eeh"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="hzC-tj-mQQ" id="mDR-Lr-VLn"/>
+                        <outlet property="createAccountButton" destination="KpC-vw-25S" id="Txe-qN-VeH"/>
                         <outlet property="loginButton" destination="ft3-F2-ynF" id="Zpr-E6-L9p"/>
                         <outlet property="passwordTextField" destination="Oa5-fY-TzJ" id="wBA-3a-Pf5"/>
                         <outlet property="usernameTextField" destination="yNs-td-VWi" id="AKA-fF-ie6"/>
