@@ -202,12 +202,17 @@
 }
 
 
-- (void)colorNavigationStatusBar
+- (void)modifyNavigationBar
 {
+    /*
     self.navigationController.navigationBar.barTintColor = UIColorFromRGB(0x5A84E5);
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+     */
+    
+    //set the title of the navigation bar
+    self.navigationItem.title = self.selectedDay.dayName;
 }
 
 
@@ -289,10 +294,9 @@
     
     [super viewDidLoad];
     
-    //set the title of the navigation bar
-    self.navigationItem.title = self.selectedDay.dayName;
+
     
-    //[self colorNavigationStatusBar];
+    [self modifyNavigationBar];
     [self loadInitialData];
 }
 

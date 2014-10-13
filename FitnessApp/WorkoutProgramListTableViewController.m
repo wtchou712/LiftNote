@@ -158,12 +158,16 @@
 
 
 
-- (void)colorNavigationStatusBar
+- (void)modifyNavigationBar
 {
+    //color the navigation bar
     self.navigationController.navigationBar.barTintColor = UIColorFromRGB(0x5A84E5);
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+    
+    //hide the back botton
+    self.navigationItem.hidesBackButton = YES;
 }
 
 
@@ -229,10 +233,9 @@
     self.WorkoutPrograms = [[NSMutableArray alloc] init];
     [super viewDidLoad];
     [self loadInitialData];
-    [self colorNavigationStatusBar];
+    [self modifyNavigationBar];
     
-    //hide the <Back button
-    self.navigationItem.hidesBackButton = YES;
+    
 }
 
 - (void)didReceiveMemoryWarning

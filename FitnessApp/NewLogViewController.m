@@ -18,7 +18,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *repsLabel;
 @property (weak, nonatomic) IBOutlet UITextField *weightTextField;
 @property (weak, nonatomic) IBOutlet UITextField *repsTextField;
-@property (weak, nonatomic) IBOutlet UILabel *dateTextField;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *doneButton;
 @property int setCount;
@@ -76,6 +75,7 @@
         //store the inputted reps, weight and date completed for the set
         [self.savedExercise addObject:enteredSet.rep forKey:@"repArray"];
         [self.savedExercise addObject:enteredSet.weight forKey:@"weightArray"];
+        [self.savedExercise setObject:[PFUser currentUser] forKey:@"createdBy"];
         self.savedExercise[@"dateCompleted"] = enteredSet.dateCompleted;
         //----------finish update----------
         
@@ -165,6 +165,7 @@
         //store the inputted reps, weight and date completed for the set
         [self.savedExercise addObject:enteredSet.rep forKey:@"repArray"];
         [self.savedExercise addObject:enteredSet.weight forKey:@"weightArray"];
+        [self.savedExercise setObject:[PFUser currentUser] forKey:@"createdBy"];
         self.savedExercise[@"dateCompleted"] = enteredSet.dateCompleted;
         [self.savedExercise saveInBackground];
         //----------finish update----------
@@ -176,6 +177,11 @@
 
 -(void)loadInitialData
 {
+    //change shape of button
+    self.nextButton.layer.cornerRadius = 5;
+    self.nextButton.layer.borderWidth = 1;
+    self.nextButton.layer.borderColor = UIColorFromRGB(0x007AFF).CGColor;
+    
     if([self.workoutExercises count] > 0)
     {
         WorkoutExercise *currExercise = [self.workoutExercises objectAtIndex:0];
@@ -195,10 +201,6 @@
         
         //convert to string
         self.todayDateString = [dateFormat stringFromDate:self.todayDate];
-        
-        //set the date label to the date string
-        self.dateTextField.text = [@"Today: " stringByAppendingString:self.todayDateString];
-        
         
         //update the PFObject to refer to the appropriate exercise
         NSString *exerciseNameWithoutSpaces = [currExercise.exerciseName stringByReplacingOccurrencesOfString:@" " withString:@""];
@@ -221,12 +223,13 @@
     return self;
 }
 
-- (void)colorNavigationStatusBar
+- (void)modifyNavigationBar
 {
     self.navigationController.navigationBar.barTintColor = UIColorFromRGB(0x5A84E5);
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+    self.navigationItem.title = self.todayDateString;
 }
 
 - (void)viewDidLoad
@@ -234,7 +237,7 @@
 
     [super viewDidLoad];
     
-    [self colorNavigationStatusBar];
+    [self modifyNavigationBar];
     
     //load the initial data
     [self loadInitialData];

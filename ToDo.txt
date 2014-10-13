@@ -1,6 +1,8 @@
 -Add View Controller with Activity Indicator to load all data at start of app
 -reorganize NewLogViewController for better UI 
 -debug ViewWeightRepViewController so sets are grouped by date
+-Handle login errors (wrong password, wrong username)
+-Add background for login screen for better appearance
 -create text logo
 -create app logo
 -UI improvements
